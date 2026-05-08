@@ -32,6 +32,6 @@ Este desarrollo web se concibió como una SPA (Single Page Application) ligera, 
 * **Estilos y Maquetación:** Tailwind CSS + Variables de Marca (Diseño de interfaz oscuro `bg-zinc-950` con tipografía legible y acentos cromáticos).
 * **Iconografía Dinámica:** `lucide-react` importado de manera estructurada para optimizar el bundle mediante *Tree Shaking*.
 * **Control de Estado Robusto:** Inicialización en `null` para evitar la precarga innecesaria de iFrames de YouTube, guiando al usuario mediante un llamado interactivo inicial.
-* **Web Share API integrada:** Botón de compartir nativo en entornos móviles y fallback dinámico de copiado al portapapeles en escritorio.
+
 
 ---
