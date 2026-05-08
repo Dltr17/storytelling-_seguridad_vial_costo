@@ -4,35 +4,38 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="preload" href="/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>La Ruta del Corazón | Seguridad Vial en Colombia</title>
+  <title>Seguridad Vial | Costos Ocultos de la Siniestralidad Vial en Colombia</title>
+  
   <meta name="description"
-    content="Un viaje interactivo a través de los datos de seguridad vial en Colombia. Descubre las historias y voces que nos cuidan en la vía." />
+    content="Especial interactivo de scrollytelling que analiza el impacto social, familiar y los costos económicos ocultos de la siniestralidad vial en Colombia a partir de datos del ONSV." />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="La Ruta del Corazón | Scrollytelling" />
+  <meta property="og:title" content="La Cuenta de la Imprudencia | Especial Interactivo" />
   <meta property="og:description"
-    content="¿A quién escuchas antes de arrancar? Explora las estadísticas de seguridad vial en Colombia." />
+    content="¿Cuánto nos cuesta la indiferencia en las vías? Conoce el impacto social y macroeconómico de los siniestros viales en Colombia." />
+  <meta property="og:image" content="/og-image.jpg" /> <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="La Cuenta de la Imprudencia | Siniestralidad Vial" />
+  <meta name="twitter:description" content="Un análisis crítico sobre el costo real y humano de las cifras de tránsito en Colombia." />
+
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Seguridad Vial en Colombia",
-  "description": "Exploración interactiva de datos y narrativa visual sobre la seguridad vial.",
-  "author": {
-    "@type": "Person",
-    "name": "Diego Fernando Lotero Vasquez"
-  },
-  "genre": "Data Visualization",
-  "keywords": "seguridad vial, colombia, datos, scrollytelling"
-}
-</script>
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "La Cuenta de la Imprudencia: Lo que Colombia pierde con cada muerte en la vía",
+    "description": "Una investigación interactiva sobre el impacto social y los costos económicos indirectos de la siniestralidad vial en Colombia.",
+    "author": {
+      "@type": "Person",
+      "name": "Diego Fernando Lotero Vasquez"
+    },
+    "genre": "Interactive Journalism / Data Visualization",
+    "keywords": "seguridad vial, siniestralidad vial colombia, costos ocultos accidentes, ONSV, scrollytelling, visualización de datos"
+  }
+  </script>
 </head>
 
-<body>
+<body class="bg-zinc-950 text-foreground antialiased selection:bg-vial-red/30 selection:text-white">
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
