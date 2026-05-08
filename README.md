@@ -1,16 +1,37 @@
-# React + Vite
+# La Cuenta de la Imprudencia: Lo que Colombia pierde con cada muerte en la vía
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify](https://api.netlify.com/api/v1/badges/e8e8e8e8-e8e8-e8e8-e8e8-e8e8e8e8e8e8/deploy-status)](https://diegolotero-seguridadvial.netlify.app/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=React&logoColor=61DAFB)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+Especial interactivo de **Scrollytelling** y visualización de datos desarrollado para la **Maestría en Comunicación, Culturas Digitales y Visualización de Datos**. Este proyecto busca visibilizar de manera crítica, ética y rigurosa el impacto social, familiar y los costos económicos ocultos de la siniestralidad vial en Colombia, confrontando la "ceguera colectiva" frente a las cifras frías de tránsito.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Proyecto en Vivo:** [https://diegolotero-seguridadvial.netlify.app/](https://diegolotero-seguridadvial.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Enfoque Conceptual e Investigación
 
-## Expanding the ESLint configuration
+El proyecto se estructura metodológicamente bajo la premisa de transmutar la estadística abstracta y normalizada en micro-realidades humanas situadas en el territorio nacional. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **El Anclaje Filosófico:** Inspirado en el *Ensayo sobre la ceguera* de José Saramago ("ciegos que, viendo, no ven"), el scrollytelling confronta la anestesia mediática y la infoxicación cotidiana de las noticias de tránsito.
+* **La Cuenta de la Imprudencia (Costos Ocultos):** Basado en el marco técnico de la Agencia Nacional de Seguridad Vial y el estudio preliminar de *Pulido et al. (2025)*, se evidencian pérdidas anuales equivalentes a entre el **1.5% y el 3% del Producto Interno Bruto (PIB)** en Colombia (entre $27.8 y $55.6 billones de pesos), desagregados en dimensiones que usualmente el debate público ignora:
+  * Saturación y costos logísticos de redes de salud primarias en la ruralidad.
+  * Procesos de restablecimiento de derechos y custodia de menores huérfanos.
+  * Desestructuración del núcleo económico familiar y pérdida de micronegocios locales.
+  * Costos de peritaje y reconstrucción forense por fallos de infraestructura estatal.
+
+---
+
+## 🛠️ Arquitectura Tecnológica y Optimización
+
+Este desarrollo web se concibió como una SPA (Single Page Application) ligera, de carga inmediata y alto rendimiento en dispositivos móviles.
+
+* **Frontend Framework:** React 18 + Vite (Compilación optimizada de producción en **1.5 segundos**).
+* **Estilos y Maquetación:** Tailwind CSS + Variables de Marca (Diseño de interfaz oscuro `bg-zinc-950` con tipografía legible y acentos cromáticos).
+* **Iconografía Dinámica:** `lucide-react` importado de manera estructurada para optimizar el bundle mediante *Tree Shaking*.
+* **Control de Estado Robusto:** Inicialización en `null` para evitar la precarga innecesaria de iFrames de YouTube, guiando al usuario mediante un llamado interactivo inicial.
+* **Web Share API integrada:** Botón de compartir nativo en entornos móviles y fallback dinámico de copiado al portapapeles en escritorio.
+
+---
