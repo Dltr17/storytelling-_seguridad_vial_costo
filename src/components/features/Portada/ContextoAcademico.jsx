@@ -37,7 +37,7 @@ function ContextoAcademico() {
                                 <BookOpen size={14} /> Seminario
                             </h4>
                             <p className="text-sm font-medium">
-                                Visualización de Datos
+                                Narrativas Digitales
                             </p>
                             <p className="text-xs text-justify text-slate-500 italic">
                                 Este scrollytelling integra analítica de datos y narrativa digital para explorar la seguridad vial desde una perspectiva humana.
@@ -47,7 +47,7 @@ function ContextoAcademico() {
                         <section className="border-l-2 border-[#8CC7C4] pl-4 space-y-2">
                             <h4 className="text-[10px] font-black uppercase text-slate-400">Tesis Narrativa</h4>
                             <p className="text-sm leading-relaxed text-justify">
-                                Esta visualización explora una brecha crítica en la seguridad vial: la distancia entre lo que dicta la norma y lo que dicta el afecto. Cuestionando sobre la verdadera influencia, evidenciando que los vínculos personales superan la ley como motor de prevención. 
+                                La siniestralidad vial en Colombia no debe abordarse como una simple métrica de tránsito ni como un suceso fortuito inevitable, sino como una crisis humanitaria y social invisible, cuya normalización mediática ("ceguera colectiva") oculta la destrucción sistemática del núcleo familiar y un colosal costo socioeconómico para el país.
                             </p>
                         </section>
 

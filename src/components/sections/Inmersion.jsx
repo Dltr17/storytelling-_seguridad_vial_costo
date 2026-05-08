@@ -57,7 +57,7 @@ export default function Inmersion() {
 
       {/* Indicador superior editorial de sección */}
       <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-vial-teal mb-16 text-center opacity-70">
-        01 / LA INMERSIÓN
+        02 / LA INMERSIÓN
       </span>
 
       {/* Renderizador de bloques desacoplado */}

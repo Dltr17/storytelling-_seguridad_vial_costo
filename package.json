@@ -25,6 +25,7 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-intersection-observer": "^10.0.3",
+    "react-player": "^3.4.0",
     "shadcn": "^4.4.0",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.4",

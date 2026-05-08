@@ -24,7 +24,7 @@ export default function BlockRenderer({ blocks }) {
             return (
               <p 
                 key={bloque.id} 
-                className="text-lg md:text-xl font-medium text-foreground/95 leading-relaxed text-left border-l-2 border-vial-red pl-6 my-8"
+                className="text-xs md:text-sm font-medium text-foreground/95 leading-relaxed text-left border-l-2 border-vial-red pl-6 my-4"
               >
                 {bloque.texto}
               </p>

@@ -20,10 +20,12 @@ const contenidoInmersion = [
   },
   {
     id: 4,
-    tipo: "parrafo",
+    tipo: "destacado",
     texto: "El siguiente testimonio, recuperado del Instituto de Transporte y Tránsito del Huila (ITTH), nos confronta con esa cruda realidad que ningún boletín de prensa o balance financiero de aseguradoras alcanza a registrar."
   }
 ];
+
+
 
 export default function ImpactoCrudeza() {
   return (
@@ -31,16 +33,37 @@ export default function ImpactoCrudeza() {
 
       {/* Indicador superior editorial de sección */}
       <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-vial-teal mb-8 text-center opacity-70">
-        03 / LA REALIDAD EN EL HOGAR
+        04 / LA REALIDAD EN EL HOGAR
       </span>
 
       {/* Renderizador de bloques desacoplado */}
       <BlockRenderer blocks={contenidoInmersion} />
       
-      <div>
-        <p>aqui va el video</p>
+<div className="w-full max-w-xl mx-auto flex flex-col gap-2 mt-8 mb-4">
+        
+        {/* Contenedor del marco interactivo para asegurar el aspect-ratio */}
+        <div className="w-full aspect-video rounded overflow-hidden border border-border/40 bg-zinc-950 shadow-sm relative">
+          <iframe
+            width="100%"
+            height="100%"
+            // URL Optimizada: showinfo=0 (oculta título), modestbranding=1 (oculta logo), controls=2 (limpia interfaz)
+            src={`https://www.youtube.com/embed/XgH-ISJm1Qs?rel=0&showinfo=0&modestbranding=1&controls=2&origin=${typeof window !== 'undefined' ? window.location.origin : ''}`}
+            title={`Testimonio víctima de accidente de tránsito - ITTH Huila`}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+            className="absolute inset-0 w-full h-full"
+          />
+        </div>
+
+        {/* PIE DE FOTO / CRÉDITO EDITORIAL */}
+        <p className="text-[11px] text-muted-foreground leading-relaxed text-right italic pt-1 border-t border-border/20">
+          Fuente: Instituto de Transporte y Tránsito del Huila (ITTH)
+        </p>
+
       </div>
-      
+
     </div>
   )
 }

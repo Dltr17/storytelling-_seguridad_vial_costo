@@ -3,7 +3,6 @@ import ScrollytellingLayout from "./components/layout/ScrollytellingLayout";
 import { 
   Portada, 
   Inmersion, 
-  AgenciaCifra, 
   RetornoCiegos, 
   ImpactoCrudeza, 
   DespertarEtico, 
@@ -25,9 +24,8 @@ function App() {
         <Inmersion />
         <RetornoCiegos />
         <ImpactoCrudeza />
-
-        <AgenciaCifra />
         <DespertarEtico />
+
       </ScrollytellingLayout>
     </main>
   );
